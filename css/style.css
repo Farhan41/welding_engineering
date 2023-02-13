@@ -1,0 +1,152 @@
+
+body{
+    background-color: #25292B;
+}
+
+
+/* navbar part start */
+
+.navbar{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: transparent;
+}
+
+.nav-item a{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+	color: black;
+}
+
+
+/* navbar part end */
+
+/* banner part start */
+
+#banner{
+    padding-top: 500px;
+    padding-top: 500px;
+    position: relative;
+}
+
+/* banner part end */
+
+/* choose part start */
+
+#choose{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.choose_title h1{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.4;
+    
+    padding-bottom: 50px;
+}
+
+.choose_box img{
+    width: 200px;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.372);
+	position: relative;
+}
+
+.line_box {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	transform: rotate(-45deg);
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.498);
+	top: -25px;
+	left: 528px;
+}
+
+
+
+/* choose part end */
+
+
+/* display part start */
+
+   .display_img{
+    padding-top: 250px;
+   } 
+
+   .display_content{
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 50px 0;
+   }
+
+   .display_content h3{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 60px;
+   }
+
+   .display_content p{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 20px;
+   }
+
+/* display part end */
+
+/* Show part start */
+
+#show{
+    background: #f0721d;
+    padding: 20px 0;
+}
+
+.show_content h2{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.show_content{
+    position: relative;
+}
+
+
+.show_box {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	transform: rotate(-45deg);
+	background: #f0721d;
+	top: 53px;
+	left: 528px;
+}
+
+/* Show part end */
+
+/* show_video start */
+
+#show_video{
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+
+/* show_video end */

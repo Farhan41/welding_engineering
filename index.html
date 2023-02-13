@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,7 +21,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <picture>
+            <picture class="navbar_logo">
                 <img src="images/Welding/LOGO2.png" alt="">
             </picture>
           </a>
@@ -177,7 +178,171 @@
            </div>
         </div>
     </section>
+
     <!-- Show video end -->
+
+        <!-- contact part start -->
+
+        <section id="contact">
+            <div class="container">
+                <div class="contact_content text-center">
+                    <h2>Contact Us</h2>
+                    <div class="contact_box"></div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- contact part end -->
+
+        <!-- contact_form part start -->
+
+        <section id="form">
+            <div class="container">
+                <div class="contact_form mx-auto ">
+
+                    <p>Call 03 377 7063, or preferably, fill in this handy contact form. We respond promptly.</p>
+
+                    <form action="/action_page.php">
+
+                        <div class="form_name">
+                            <label for="name">Name (required)</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+
+                        <div class="form_email">
+                            <label for="email">Email (required)</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    
+                       <div class="form_phone">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                       </div>
+
+                       <div class="form_call">
+                            <label for="call">Best time to call you</label>
+                            <input type="text" id="call" name="call">
+                       </div>
+                    
+                        <div class="form_message">
+                            <label for="message">Message</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        </div>                        
+                      
+                        <input class="submit" type="submit" value="Send">
+                      </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact_form part end -->
+
+        <!-- membership part start -->
+
+        <section id="member">
+            <div class="container">
+
+
+               
+                    <div class="member_wrap">
+                     <div class="member_title">
+                         <h1>Our Memberships</h1>
+                     </div>
+                     <div class="line_member">
+                         <div class="line_member_box"></div>
+                     </div>
+                    </div>
+
+                   <div class="member_showcase">
+                    <img src="images/Welding/SCNZ-MEMBER.jpg" alt="">
+                    <img src="images/Welding/WSU_CharterLogo.jpg" alt="">
+                    <img src="images/Welding/siresafe-75.jpg" alt="">
+                    <img src="images/Welding/siresafe-75.jpg" alt="">
+                    <img src="images/Welding/Member-of-CECC-Logo.jpg" alt="">
+                   </div>
+                 
+
+
+            </div>
+        </section>
+
+        <!-- membership part end -->
+
+        <!-- certificate part start -->
+
+        <section id="certificate">
+            <div class="container">
+
+
+               
+                    <div class="certificate_wrap">
+                     <div class="member_title">
+                         <h1>Our Certificate</h1>
+                     </div>
+                     <div class="line_certificate">
+                         <div class="line_certificate_box"></div>
+                     </div>
+                    </div>
+
+                   <div class="certificate_showcase">
+                    <img src="images/Welding/SFC-cert.png" alt="">
+                    <img src="images/Welding/IIW-cert.png" alt="">
+                   </div>
+                 
+
+
+            </div>
+        </section>
+
+        <!-- certificate part end -->
+
+        <!-- quality part start -->
+
+        <section id="quality">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                       <div class="quality_left">
+                        <h4>QUALITY ASSURANCE</h4>
+                        <p>Our Company is SFC accredited for the fabrication and erection of structures up to and including Construction Category C3 (CC3) under AS/NZS 5131. We are certified in accordance with AS/NZS ISO 3834 Part 2, with our welding coordination team qualified to ISO 3834.5 for the management of welding structural and reinforcing steel in compliance with AS/NZS 1554 Part 1 & Part 3. Our welders are qualified to ISO 9606.1 and AS/NZS 2980, with our site erection team trained and qualified by SCNZ to supervise the installation of High Strength Bolts, with specific training in TB and TF tensioning. We also have an in-house welding supervisor and inspector qualified to supervise and carry out formal welding inspections under AS2214 and IIW IWI WT1 joint qualifications.</p>
+                        <div class="quality_certificate">
+                            <img src="images/Welding/SCF_Welding-and-Engineering-Ltd_Hor-800x488.jpg" alt="">
+                            <img src="images/Welding/WE-IIW-ANBCC-badge.jpg" alt="">
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="quality_right">
+                            <h4>HEAD OFFICE & WORKSHOPS</h4>
+                            <p>34 Broad Street, Woolston, Christchurch 8023</p>
+                            <div class="quality_contact">
+                             <p>EMAIL:<span> admin@weldeng.co.nz</span></p> 
+                             <p>PHONE 03 377 7063</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- quality part end -->
+
+        <!-- footer part start -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="footer_wrap">
+                    <p><a href="#">COPYRIGHT © 2023 WELDING & ENGINEERING LTD</a><span>|</span></p>
+                    <p><a href="#">TERMS & CONDITIONS</a><span>|</span></p>
+                    <p><a href="#">PRIVACY STATEMENT</a><span>|</span></p>
+                    <p><a href="#">CAREERS</a></p>
+                    
+                </div>
+            </div>
+        </footer>
+
+        <!-- footer part end -->
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
